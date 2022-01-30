@@ -1,11 +1,11 @@
 # plot_tv_ratings
-Python code that pulls TV show ratings from IMDb and plots them on interactive plotly graphs. Allows you to reminisce on the best (and worst) episodes of your favorite TV show. Check out some samples of the resulting output in this demo: https://dargen.io/covid. ******
+Python code that pulls TV show ratings from IMDb and plots them on interactive plotly graphs. Allows you to reminisce on the best (and worst) episodes of your favorite TV show.  
 
 *Michael D'Argenio  
 mjdargenio@gmail.com  
 https://dargen.io  
 https://github.com/mjdargen  
-Created: January 24, 2022*  
+Created: January 29, 2022*  
 
 Have you ever visited https://www.reddit.com/r/dataisbeautiful/ and wondered how they created such beautiful graphs? Well, now you can create some of your own! This tutorial will teach you how to create similarly beautiful graphs and with this project we will create interactive graphs that show the ratings of all episodes in a TV show.  
 
@@ -25,4 +25,4 @@ Demos of the interactive graphs:
   * [Seinfeld](https://dargen.io/tutorials/seinfeld.html)
   * [The Office](https://dargen.io/tutorials/the_office.html)
 
-For a complete walkthrough of how this program works, you can go here: [Instructables Tutorial](***********************).
+For a complete walkthrough of how this program works, you can go here: [Instructables Tutorial](https://www.instructables.com/Plot-TV-Show-Ratings/).
