@@ -1,28 +1,37 @@
-# plot_tv_ratings
-Python code that pulls TV show ratings from IMDb and plots them on interactive plotly graphs. Allows you to reminisce on the best (and worst) episodes of your favorite TV show.  
+# color_palette
+Python script that generates a color palette from an image using k-means clustering. Creates two versions of the original image: one with a color swatch at the bottom and one with the pixels in the image replaced with their nearest centroid color.  
+
+Also contains a script copied from GitHub User v-za to download still images from movies from https://film-grab.com. See their original script here: https://github.com/v-za/film-grabber.
 
 *Michael D'Argenio  
 mjdargenio@gmail.com  
 https://dargen.io  
 https://github.com/mjdargen  
-Created: January 29, 2022*  
+Created: July 10, 2022*  
 
-Have you ever visited https://www.reddit.com/r/dataisbeautiful/ and wondered how they created such beautiful graphs? Well, now you can create some of your own! This tutorial will teach you how to create similarly beautiful graphs. In this project, we will create interactive graphs that show the ratings of all episodes in a TV show.
-
-We will learn how to use cinemagoer package to retrieve information from IMDb, basic file I/O, how to process a CSV file using Pandas, and how to create interactive plots with Plotly. This knowledge is easily transferrable to any other data science project.
+**Description here**
 
 To run this code in your environment, you will need to:  
    * Install Python 3 and pip
-   * Install cinemagoer (imdbpy), pandas, plotly: `pip3 install -r requirements.txt`
+   * Install Pillow, plotly, and beautifulsoup4: `pip3 install -r requirements.txt`
 
 
-Demos of the interactive graphs:
-  * [30 Rock](https://dargen.io/tutorials/30_rock.html)
-  * [Adventure Time](https://dargen.io/tutorials/adventure_time.html)
-  * [Atlanta](https://dargen.io/tutorials/atlanta.html)
-  * [Bob's Burgers](https://dargen.io/tutorials/bobs_burgers.html)
-  * [Mr. Robot](https://dargen.io/tutorials/mr_robot.html)
-  * [Seinfeld](https://dargen.io/tutorials/seinfeld.html)
-  * [The Office](https://dargen.io/tutorials/the_office.html)
+**Original Image**  
+<img src="https://raw.githubusercontent.com/mjdargen/tutorials/main/color_palette/exp/exp1_original.jpg" width="48%">
+<img src="https://raw.githubusercontent.com/mjdargen/tutorials/main/color_palette/exp/exp2_original.jpg" width="48%">  
 
-For a complete walkthrough of how this program works, you can go here: [Instructables Tutorial](https://www.instructables.com/TV-Show-Ratings-on-Beautiful-Graphs/).
+
+**Color Palette Image**  
+<img src="https://raw.githubusercontent.com/mjdargen/tutorials/main/color_palette/exp/exp1_palette.jpg" width="48%">
+<img src="https://raw.githubusercontent.com/mjdargen/tutorials/main/color_palette/exp/exp2_palette.jpg" width="48%">  
+
+
+**Replaced Colors Image**  
+<img src="https://raw.githubusercontent.com/mjdargen/tutorials/main/color_palette/exp/exp1_replaced.jpg" width="48%">
+<img src="https://raw.githubusercontent.com/mjdargen/tutorials/main/color_palette/exp/exp2_replaced.jpg" width="48%">  
+
+**Preview of Interactive 3D Pixel Plot**  
+<img src="https://raw.githubusercontent.com/mjdargen/tutorials/main/color_palette/exp/exp1_plot.png" width="48%">
+<img src="https://raw.githubusercontent.com/mjdargen/tutorials/main/color_palette/exp/exp2_plot.png" width="48%">  
+
+For a complete walkthrough of how this program works, you can go here: [Instructables Tutorial](new link here***).
