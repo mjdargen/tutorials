@@ -53,4 +53,4 @@ To run the color palette script, use the following command: `python3 palette.py 
 <img src="https://raw.githubusercontent.com/mjdargen/tutorials/main/color_palette/exp/exp1_plot.png" width="48%">
 <img src="https://raw.githubusercontent.com/mjdargen/tutorials/main/color_palette/exp/exp2_plot.png" width="48%">  
 
-For a complete walkthrough of how this program works, you can go here: [Instructables Tutorial](new link here***).
+For a complete walkthrough of how this program works, you can go here: [https://www.instructables.com/Color-Palette-Generator/](https://www.instructables.com/Color-Palette-Generator/).
