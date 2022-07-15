@@ -1,7 +1,5 @@
 # color_palette
-Python script that generates a color palette from an image using k-means clustering. Creates two versions of the original image: one with a color swatch at the bottom and one with the pixels in the image replaced with their nearest centroid color.  
-
-Also contains a script copied from GitHub User v-za to download still images from movies from https://film-grab.com. See their original script here: https://github.com/v-za/film-grabber.
+*Python script to generate a color palette from an image using k-means clustering.*
 
 *Michael D'Argenio  
 mjdargenio@gmail.com  
@@ -9,11 +7,32 @@ https://dargen.io
 https://github.com/mjdargen  
 Created: July 10, 2022*  
 
-**Description here**
+Have you ever seen the images floating around that show the color palettes from various scenes of visually striking movies? Well now you can create some images of your own using this script! The script uses a process called k-means clustering to generate a color palette from the image.
+
+The script creates two versions of the original image: one with a color swatch at the bottom and one with the pixels in the image replaced with their closest color from the palette. The script will also plot all the pixels in 3D space based on their RGB values and show the clusters by coloring them based on their closest color from the palette.  
+
+**Note**: The source code also contains a modified script from GitHub user v-za to download still images from movies from https://film-grab.com. See their original script here: https://github.com/v-za/film-grabber.  
+
+To easily run the code in your browser and avoid having to install dependencies, you can use this Google Colab Notebook: https://colab.research.google.com/drive/1WkfTnGPPqsvJdV8SHu_zw3rnY21pIehT?usp=sharing  
+
 
 To run this code in your environment, you will need to:  
-   * Install Python 3 and pip
-   * Install Pillow, plotly, and beautifulsoup4: `pip3 install -r requirements.txt`
+  * Install Python 3 and pip
+  * Install Pillow, plotly, and beautifulsoup4: `pip3 install -r requirements.txt`
+
+
+
+To run the film grabber script, use the following command: `python3 filmgrabber.py -f <film> -p <path>`  
+  * `-f <film>` - Name of the film to search for. Exp: `Blade Runner 2049`
+  * `-p <path>` - Output file path to store images. Exp: `./stills`
+
+
+
+To run the color palette script, use the following command: `python3 palette.py -i <image> -k <kcolors> -l <limit>`  
+  * `-i <image>` - Path to image file. Exp: `./bladerunner001.jpg`  
+  * `-k <kcolors>` - K value i.e. number of colors in palette. Exp: `6`
+  * `-l <limit>` - Max number of iterations to test convergence. Exp: `20`
+
 
 
 **Original Image**  

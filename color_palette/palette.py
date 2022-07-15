@@ -48,7 +48,7 @@ def cluster_pixels(im, centroids):
     return clusters
 
 
-# Computes new centroids based on the resulting clusters by computing the mean.
+# Computes new centroids based on the mean of the resulting clusters.
 def compute_centroids(clusters):
     new_centroids = []
 

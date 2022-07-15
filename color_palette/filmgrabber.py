@@ -72,7 +72,7 @@ def main():
                         help='Name of film to search for.',
                         type=str, required=True)
     parser.add_argument("-p", "--path",
-                        help='Output path to store images',
+                        help='Output path to store images.',
                         type=str, default=".")
     args = parser.parse_args()
 
